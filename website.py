@@ -5,10 +5,15 @@ websites = [
     "https://www.google.com",
     "https://www.github.com",
     "https://www.openai.com",
+    "https://www.microsoft.com",
+    "https://www.facebook.com",
+    "https://www.apple.com",
+    "https://www.netflix.com",
+    "https://www.spotify.com",
     # Add more websites here
 ]
 
-random_websites = random.sample(websites, k=100)
+random_websites = random.sample(websites, k=4)
 
 for website in random_websites:
     try:
